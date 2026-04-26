@@ -14,6 +14,9 @@ main {
 }
 
 header {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
   margin-bottom: 40px;
 }
 
@@ -49,4 +52,10 @@ ul {
 
 li {
   margin-bottom: 8px;
+}
+
+.profile {
+  width: 120px;
+  border-radius: 50%;
+  margin-top: 10px;
 }
